@@ -15,9 +15,9 @@ namespace Klassid_loomine
             naine.Tervitamine();*/
 
             Inimene meehed = new Inimene();
-            meehed.Perenimi = "Saiko";
-            meehed.Eesnimi = "Denis";
-            meehed.Palk = 1;
+            meehed.Perenimi = "Artjom";
+            meehed.Eesnimi = "Volkov";
+            meehed.Palk = 1500;
             meehed.Vanus = 45;
             meehed.Strana = "Russia";
             /*Console.WriteLine("Ma olen " + meehed.Eesnimi + " ja perekonnanimi " + meehed.Perenimi);
