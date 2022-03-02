@@ -15,11 +15,14 @@ namespace Klassid_loomine
             naine.Tervitamine();*/
 
             Inimene meehed = new Inimene();
-            meehed.Perenimi = "Artjom";
-            meehed.Eesnimi = "Volkov";
-            meehed.Palk = 1500;
+            meehed.Perenimi = "Volkov";
+            meehed.Eesnimi = "Artjom";
+            meehed.Palk = 1000;
             meehed.Vanus = 45;
             meehed.Strana = "Russia";
+            double s = meehed.Sotsialmaks();
+            Console.WriteLine("{0} Euro", s);
+
             /*Console.WriteLine("Ma olen " + meehed.Eesnimi + " ja perekonnanimi " + meehed.Perenimi);
             Console.WriteLine("Ma olen " + meehed.Palk);*/
             meehed.Headaega();
