@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Klassid_loomine
 {
-    class Inimene
+    public abstract class Inimene
     {
         string perenimi;
         //поле фамилии
@@ -33,9 +33,10 @@ namespace Klassid_loomine
         {
             get { return emakeel; } // код - чтение поля язык
         }
-        public Inimene(string Perenimi) //свойство для поля фамилия
+        public Inimene(string Perenimi,string Eesnimi) //свойство для поля фамилия
         {
             perenimi = Perenimi;
+            eesnimi = Eesnimi;
         }
         public string Strana //свойство для поля страны
         {
@@ -147,5 +148,6 @@ namespace Klassid_loomine
             sots = palk * 0.33;
             return sots;
         }
+        public abstract void Kes_ma_olen();
     }
 }

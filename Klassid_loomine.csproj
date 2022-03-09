@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Emakeel.cs" />
     <Compile Include="Inimene.cs" />
+    <Compile Include="Opetaja.cs" />
+    <Compile Include="Opilane.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
